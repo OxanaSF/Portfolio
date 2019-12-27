@@ -2,11 +2,6 @@
    padding-top: 78px;
    padding-bottom: 78px;
    background-color: rgb(252, 252, 252);
-    /* background-color: rgb(248, 239, 239); */
-   /* background-color: rgb(219, 199, 199); */
-
-   /* background-color: rgb(241, 215, 215); */
-   
 }
 
 .overlay{
@@ -29,37 +24,33 @@
 .slides-navigation a.prev{
     left: 20px;
     background-image: url(../img/icons/back.png);
-  
+    opacity: 0.3;
+    
 }
 
 .slides-navigation a.next {
     right: 20px;
     background-image: url(../img/icons/next.png);
-    /* z-index: 6; */
+    opacity: 0.3;
 }
 
 .title-message{
     position: absolute;
-    width: 100px;
+    width: 200px;
     height: 100px;
     top: 50%;
-    left: 45%;
-
+    left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;
     text-align: center;
     margin-top: -125px;
-   
-   
-    margin-left: -50px; /* margin is -0.5 * dimension */
-    /* margin-top: -25px;  */
+    margin-left: -50px; 
 }
 
 .title-message .heading p{
-    /* color: rgb(158, 102, 173);  */
     color: rgb(22, 2, 27); 
     text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.4);
-    font-weight: 100;
+    font-weight: 120;
     letter-spacing: 7px;
 }
 
@@ -106,6 +97,11 @@
 
 .skill p {
     color: rgb(20, 2, 26);
+
+}
+
+.skill h5 {
+    color:   rgb(29, 1, 1);
 }
 
 .chart{
@@ -148,3 +144,62 @@ h2{
 .chart .percent:after{
     content: '%';
 }
+
+
+
+
+.copyright-section{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(22, 1, 22);
+}
+
+.copyright-section{
+    margin: 0;
+}
+
+#navigation{
+    z-index: 100;
+    background-color: rgba(255,255,255,0.5);
+    padding-left: 350px;
+    
+    
+}
+
+#navigation li {
+    padding: 0, 10px;
+}
+
+#navigation li a{
+    /* color: rgb(58, 88, 117); */
+    color: rgb(83, 52, 83);
+    font-weight: 400;
+    font-size: 19px;
+    padding:12px
+}
+
+.navbar-brand
+{
+    color: rgb(83, 52, 83);
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.navbar-brand:hover {
+    color: rgb(88, 123, 158);
+}
+
+.navbar-toggler-icon {
+    background: url(../img/icons/icons8-menu-50.png);
+    background-size: 100%;
+}
+
+#navigation {
+    position: sticky;
+    top: 0;
+}
+
