@@ -206,9 +206,6 @@ h2 {
     background-color: rgb(252, 252, 252);
 }
 
-.contact-section {
-    background-color: rgba(216, 216, 208, 0.932);
-}
 
 
 #navigation {
@@ -237,7 +234,75 @@ h2 {
     text-align: center;
 }
 
+.copyright-section {
+    padding: 20px;
+}
 
 
+.contact-section {
+    background-color: rgba(216, 216, 208, 0.932);
+    text-align: center;
+    color: white;
+    font-size: italic;
+    font-weight: 700;
+   
+    
+}
 
+.contact {
+    margin: 50px;
+    scroll-margin-bottom: 30px;
+    background: rgba(0,0,0,0.1);
+    border: 0.5px solid  rgb(184, 169, 169);
+    border-radius: 0px 50px;
+    padding: 20px 40px;
+}
+
+#name {
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(83, 52, 83);
+    background: none;
+    outline: 0;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    
+}
+
+.photo {
+    color: white;
+    size: 10px;
+}
+
+#submit {
+    color: rgb(23, 31, 24);
+    letter-spacing: 2px;
+    font-weight: 20;
+    font-size: 15px;;
+    margin: 10px;
+}
+
+#submit:hover{
+    color: #554a36;
+}
+
+h5 {
+    color: rgba(31, 30, 20, 0.877); 
+    padding-top: 20px;
+    padding-bottom: 12px;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#num {
+    width: 300px;
+    background-color: lightgrey;
+    border: 1px solid  rgb(83, 52, 83);
+    text-align: center;
+    font-size: 14px;
+}
 
