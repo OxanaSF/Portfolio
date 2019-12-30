@@ -1,6 +1,8 @@
-#slides {
+/* #slides {
   position: relative;
-}
+} */
+
+
 #slides .slides-container {
   display: none;
 }
@@ -62,4 +64,22 @@
 }
 .slides-pagination a.current {
   background: #222;
+}
+
+.mg-fluid card-img {
+  display:inline-block;
+  text-align:center;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.card-body text-center {
+  display:inline-block;
+  text-align:center;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
 }
