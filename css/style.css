@@ -290,6 +290,16 @@ h5 {
     text-align: center;
 }
 
+h6 {
+    color: rgba(31, 30, 20, 0.877); 
+    padding-top: 20px;
+    padding-bottom: 12px;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
 #num {
     width: 300px;
     background-color: #f4f4f4;
